@@ -1,0 +1,17 @@
+streamlit
+plotly
+pandas
+google-generativeai
+python-dotenv
+datetime
+typing
+
+
+# Voice input + transcription
+streamlit-mic-recorder
+pydub
+openai
+
+# Location auto-detect
+streamlit-javascript
+requests
