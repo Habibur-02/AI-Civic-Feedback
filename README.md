@@ -168,9 +168,8 @@ MIT License
 
 ---
 
-## 📞 Contact
 
-- Hackathon support: gucc@green.edu.bd / 01569-104401
+
 
 ---
 
