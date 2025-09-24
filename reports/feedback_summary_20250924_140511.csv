@@ -1,0 +1,22 @@
+feedback_id,title,category,severity,status,location_detail,created_at,resolved_at,priority_score
+20,Road Issues,Traffic,High,Pending,,2025-09-24 07:54:02,,1.0
+19,Street Lights Not Working,Electricity,High,Pending,"Road 12, Block C, Uttara Sector 7",2025-09-24 07:52:00,,0.9800000000000001
+6,Street Lights Not Working,Electricity,High,Rejected,"Road 12, Block C, Uttara Sector 7",2025-09-23 13:37:18,,0.9800000000000001
+3,Street Lights Not Working,Electricity,High,Rejected,"Road 12, Block C, Uttara Sector 7",2025-09-23 13:36:46,,0.9800000000000001
+21,ki korbo,Safety,High,Pending,,2025-09-24 07:56:19,,0.96
+17,Broken Traffic Signal at Dhanmondi 27,Traffic,High,Resolved,"Dhanmondi 27 intersection, near Abahani Club",2025-09-24 07:52:00,2025-09-24 07:52:00,0.9
+4,Broken Traffic Signal at Dhanmondi 27,Traffic,High,Resolved,"Dhanmondi 27 intersection, near Abahani Club",2025-09-23 13:37:18,2025-09-23 13:37:18,0.9
+1,Broken Traffic Signal at Dhanmondi 27,Traffic,High,Resolved,"Dhanmondi 27 intersection, near Abahani Club",2025-09-23 13:36:46,2025-09-23 13:36:46,0.9
+18,Garbage Collection Not Regular,Sanitation,Medium,Pending,"Road 15, House 25, Gulshan 1",2025-09-24 07:52:00,,0.45
+5,Garbage Collection Not Regular,Sanitation,Medium,Rejected,"Road 15, House 25, Gulshan 1",2025-09-23 13:37:18,,0.45
+2,Garbage Collection Not Regular,Sanitation,Medium,Pending,"Road 15, House 25, Gulshan 1",2025-09-23 13:36:46,,0.45
+16,ami muri khai 4,Other,Low,Rejected,ami muri khai 4,2025-09-23 14:46:25,,0.13999999999999999
+15,ami muri khai 3,Other,Low,Rejected,ami muri khai 3,2025-09-23 14:44:52,,0.13999999999999999
+14,ami muri khai 2,Other,Low,Pending,ami muri khai 2,2025-09-23 14:43:43,,0.13999999999999999
+13,ami muri khai,Other,Low,Rejected,ami muri khai,2025-09-23 14:41:56,,0.13999999999999999
+12,ami don,Other,Low,Rejected,ami don,2025-09-23 14:13:47,,0.13999999999999999
+11,ami bhat khai 3,Other,Low,Rejected,ami bhat khai 3,2025-09-23 14:02:46,,0.13999999999999999
+10,ami bhat khai 2,Other,Low,Pending,ami bhat khai 2,2025-09-23 14:01:34,,0.13999999999999999
+9,ami bhat khai 1,Other,Low,Rejected,ami bhat khai 1,2025-09-23 14:00:16,,0.13999999999999999
+8,ami bhat khai na,Other,Low,Pending,ami bhat khai na,2025-09-23 13:39:31,,0.13999999999999999
+7,ami bhat khai,Other,Low,Rejected,ami bhat khai,2025-09-23 13:38:16,,0.13999999999999999
