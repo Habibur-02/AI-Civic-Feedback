@@ -19,7 +19,7 @@ class EnhancedAIProcessor:
                 self.model = genai.GenerativeModel('gemini-2.5-flash')
                 self.api_available = True
             except Exception as e:
-                st.warning(f"⚠️ Google API setup failed: {str(e)}. Using fallback methods.")
+                st.warning(f" Google API setup failed: {str(e)}. Using fallback methods.")
                 self.api_available = False
     
     def categorize_feedback(self, title: str, description: str) -> Tuple[str, float]:
