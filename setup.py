@@ -9,7 +9,7 @@ from sample_data import create_sample_data
 
 def setup_project():
     """Set up the project for first-time use"""
-    print("🏛️ Setting up AI-Powered Civic Feedback & Governance Platform")
+    print("Setting up AI-Powered Civic Feedback & Governance Platform")
     print("=" * 60)
     
     # Create directories
@@ -21,7 +21,7 @@ def setup_project():
     #     with open('.env', 'w') as f:
     #         f.write("# Google Gemini API Key (Get from https://makersuite.google.com/app/apikey)\n")
     #         f.write("GOOGLE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n")
-    #     print("✅ Created .env file template")
+    #     print("Created .env file template")
     
     # Create Streamlit config
     config_content = """
