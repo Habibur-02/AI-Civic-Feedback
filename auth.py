@@ -17,7 +17,7 @@ class AuthManager:
     
     def login_form(self) -> bool:
         """Display login form and handle authentication"""
-        st.markdown("### 🔐 Login to Civic Feedback Platform")
+        st.markdown("###  Login to Civic Feedback Platform")
         
         with st.form("login_form"):
             email = st.text_input("Email", placeholder="Enter your email")
@@ -25,9 +25,9 @@ class AuthManager:
             
             col1, col2 = st.columns(2)
             with col1:
-                login_clicked = st.form_submit_button("🚀 Login", use_container_width=True)
+                login_clicked = st.form_submit_button(" Login", use_container_width=True)
             with col2:
-                signup_clicked = st.form_submit_button("📝 Sign Up", use_container_width=True, type="secondary")
+                signup_clicked = st.form_submit_button(" Sign Up", use_container_width=True, type="secondary")
             
             if login_clicked:
                 if email and password:
