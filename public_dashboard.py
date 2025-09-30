@@ -10,7 +10,7 @@ class PublicDashboard:
     
     def render_public_dashboard(self):
         """Render public transparency dashboard"""
-        st.markdown("# 🏛️ Public Civic Feedback Dashboard")
+        st.markdown("# Public Civic Feedback Dashboard")
         st.markdown("### Transparency in Action - Real-time insights into community issues and government response")
         
         # Get public statistics
@@ -22,7 +22,7 @@ class PublicDashboard:
         with col1:
             st.markdown(f"""
             <div class="metric-card total-feedback">
-                <h3>📊 Total Issues</h3>
+                <h3>Total Issues</h3>
                 <div class="number">{stats['total_issues']}</div>
                 <div class="subtitle">Community reports</div>
             </div>
@@ -31,7 +31,7 @@ class PublicDashboard:
         with col2:
             st.markdown(f"""
             <div class="metric-card resolution-rate">
-                <h3>✅ Resolved</h3>
+                <h3>Resolved</h3>
                 <div class="number">{stats['resolved_issues']}</div>
                 <div class="subtitle">Issues completed</div>
             </div>
@@ -40,7 +40,7 @@ class PublicDashboard:
         with col3:
             st.markdown(f"""
             <div class="metric-card recent-feedback">
-                <h3>⏳ In Progress</h3>
+                <h3> In Progress</h3>
                 <div class="number">{stats['in_progress_issues']}</div>
                 <div class="subtitle">Being addressed</div>
             </div>
@@ -60,7 +60,7 @@ class PublicDashboard:
         
         with col1:
             st.markdown('<div class="chart-container">', unsafe_allow_html=True)
-            st.markdown('<h3 class="chart-title">📊 Issues by Category</h3>', unsafe_allow_html=True)
+            st.markdown('<h3 class="chart-title">Issues by Category</h3>', unsafe_allow_html=True)
             
             if stats['category_distribution']:
                 fig_category = px.pie(
@@ -122,7 +122,7 @@ class PublicDashboard:
             st.markdown('</div>', unsafe_allow_html=True)
         
         # Government accountability section
-        st.markdown("### 🎯 Government Accountability")
+        st.markdown("### Government Accountability")
         
         col1, col2, col3 = st.columns(3)
         
@@ -154,7 +154,7 @@ class PublicDashboard:
             """, unsafe_allow_html=True)
         
         # Recent resolved issues (anonymized)
-        st.markdown("### ✅ Recently Resolved Issues")
+        st.markdown("### Recently Resolved Issues")
         
         # Get some resolved feedback (anonymized)
         resolved_feedback = self.db.get_all_feedback(status='Resolved')[:5]
