@@ -6,7 +6,21 @@ from typing import Dict, List, Optional, Tuple
 import streamlit as st
 from datetime import datetime
 
-
+class EnhancedAIProcessor:
+    def __init__(self, api_key: str = None):
+        """Initialize AI processor with Google Gemini API"""
+        self.api_available = False
+        self.model = None
+        
+        if api_key:
+            try:
+                genai.configure(api_key=api_key)
+                # Use the correct model name: gemini-1.5-flash
+                self.model = genai.GenerativeModel('gemini-2.5-flash')
+                self.api_available = True
+            except Exception as e:
+                st.warning(f" Google API setup failed: {str(e)}. Using fallback methods.")
+                self.api_available = False
     
     def categorize_feedback(self, title: str, description: str) -> Tuple[str, float]:
         """Categorize feedback with confidence score"""
