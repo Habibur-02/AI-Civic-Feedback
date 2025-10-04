@@ -1448,13 +1448,13 @@ def render_spam_moderation(user: dict):
     with col3:
         st.markdown(f"""
         <div class="metric-card recent-feedback">
-            <h3>ℹ️ Low Risk</h3>
+            <h3> Low Risk</h3>
             <div class="number">{low_spam}</div>
             <div class="subtitle">Confidence 30-50%</div>
         </div>
         """, unsafe_allow_html=True)
     
-    st.info(f"📊 Reviewing {len(spam_candidates)} potentially problematic submissions")
+    st.info(f" Reviewing {len(spam_candidates)} potentially problematic submissions")
     
     # Review interface
     for feedback in spam_candidates:
